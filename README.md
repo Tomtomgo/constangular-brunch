@@ -1,8 +1,10 @@
 ## constangular-brunch
 
-Reads YAML configuration files, parses them and adds them to your Angular app as a module.
+It does:
 
-Constangular is environment-dependent so it allows you to have multiple configs for multiple environments.
+- Reads YAML configuration files, parses them and adds them to your Angular app as a module.
+
+- Constangular is environment-dependent so it allows you to have multiple configs for multiple environments.
 
 ## Example
 
@@ -17,6 +19,8 @@ production:
   base_url: http://api.suchurl.co/
   api_key: g5e4rrdy66f6da6fduka
 ```
+
+**`app/app.coffee`**:
 
 ``` coffeescript
 App = angular.module 'MyApp', ['config.api']
