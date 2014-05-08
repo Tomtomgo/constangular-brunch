@@ -1,0 +1,24 @@
+{
+  "name": "constangular-brunch",
+  "version": "0.1.0",
+  "description": "YAML configuration files for Angular in Brunch.",
+  "author": "Tom Aizenberg (https://github.com/tomtomgo)",
+  "homepage": "https://github.com/tomtomgo/constangular-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tomtomgo/constangular-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -o lib/ src/",
+    "preinstall": "npm install --production --ignore-scripts",
+    "postinstall": "./node_modules/.bin/coffee -o lib/ src/"
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || >=0.9"
+  },
+  "dependencies": {
+    "js-yaml": "latest",
+    "coffee-script": "latest"
+  }
+}
