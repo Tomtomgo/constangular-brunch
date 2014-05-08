@@ -1,6 +1,6 @@
 {
   "name": "constangular-brunch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Environment aware configurations for Angular with Brunch.",
   "author": "Tom Aizenberg (https://github.com/tomtomgo)",
   "homepage": "https://github.com/tomtomgo/constangular-brunch",
