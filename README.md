@@ -36,3 +36,7 @@ You see the pattern there:
 
 * Constangular finds files in app/config/*some_name*.yaml
 * Exports their contents as constants named *some_name*Config to an angular module named config.*some_name*
+
+## Usage
+
+Add `'constangular-brunch': '*'` to your `package.json`.
