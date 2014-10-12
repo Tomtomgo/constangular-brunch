@@ -4,7 +4,7 @@ sysPath = require 'path'
 module.exports = class Constangular
   brunchPlugin: yes
   type: 'javascript'
-  pattern: /config\/.*\.yaml$/
+  pattern: /config[\/\\].*\.yaml$/
 
   constructor: (@config) ->
     true
