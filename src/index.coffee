@@ -15,7 +15,7 @@ module.exports = class Constangular
       environment = if @config.env.length > 0 then @config.env[0] else 'development'
       
       # Parse the YAML file
-      data = yaml.safeLoad(data)
+      data = yaml.load(data)
       
       # Check if this env is decribe in the YAML
       if environment of data
